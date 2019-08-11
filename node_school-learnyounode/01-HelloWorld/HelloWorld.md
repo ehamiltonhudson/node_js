@@ -20,8 +20,8 @@ the lesson will be marked 'completed' if you are successful.
 ###### » To print these instructions again, run:
     learnyounode print
 ###### » To execute your program in a test environment, run:
-    learnyounode run program.js
+    learnyounode run HelloWorld.js
 ###### » To verify your program, run:
-    learnyounode verify program.js
+    learnyounode verify HelloWorld.js
 ###### » To access the main menu, run:
     learnyounode
