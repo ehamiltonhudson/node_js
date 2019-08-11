@@ -1,7 +1,7 @@
 ## Baby Steps
 #### (Execerise 2 of 13)
 Write a program that accepts one or more numbers as command-line arguments and prints the sum of those numbers to the console (stdout).
-──────────────────────────────────────────────────────────────
+---
 ##### HINTS
 You can access command-line arguments via the global *process* object. The *process* object has an *argv* property which is an array containing the complete command-line. i.e. *process.argv*.
 
@@ -23,12 +23,12 @@ You'll need to think about how to loop through the number arguments so you can o
 Also be aware that all elements of *process.argv* are strings and you may need to coerce them into numbers. You can do this by prefixing the property with __+__ or passing it to __Number()__. e.g. *+process.argv[2]* or *Number(process.argv[2])*.
 
 learnyounode will be supplying arguments to your program when you run *learnyounode verify program.js* so you don't need to supply them yourself.
-──────────────────────────────────────────────────────────────
+---
 ###### » To print these instructions again, run:
-    `learnyounode print`
+    learnyounode print
 ###### » To execute your program in a test environment, run:
-    `learnyounode run` program.js
+    learnyounode run program.js
 ###### » To verify your program, run:
-    `learnyounode verify program.js`
+    learnyounode verify program.js
 ###### » To access the main menu, run:
-    `learnyounode`
+    learnyounode
