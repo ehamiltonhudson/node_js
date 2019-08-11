@@ -19,6 +19,7 @@ These four things are the contract that your module must follow.
   __4.__ Handle all the errors that may occur and pass them to the callback.
 
 The benefit of having a contract is that your module can be used by anyone who expects this contract. So your module could be used by anyone else who does learnyounode, or the verifier, and just work.
+
 ---
 ##### HINTS
 Create a new module by creating a new file that just contains your directory reading and filtering function. To define a single function export, you assign your function to the *module.exports* object, overwriting what is already there:
@@ -51,6 +52,7 @@ Also keep in mind that it is idiomatic to check for errors and do early-returns 
       })
     }
 ```
+
 ---
 ###### » To print these instructions again, run:
     learnyounode print

@@ -7,6 +7,7 @@ For example, if you get 'txt' as the second argument then you will need to filte
 Keep in mind that the first arguments of your program are not the first values of the *process.argv array*, as the first two values are reserved for system info by Node.
 
 The list of files should be printed to the console, one file per line. You __must__ use asynchronous I/O.
+
 ---
 ##### HINTS
 The *fs.readdir()* method takes a pathname as its first argument and a callback as its second. The callback signature is:
