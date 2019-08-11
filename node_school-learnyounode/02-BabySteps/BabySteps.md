@@ -2,7 +2,7 @@
 #### (Execerise 2 of 13)
 Write a program that accepts one or more numbers as command-line arguments and prints the sum of those numbers to the console (stdout).
 
----
+___
 ##### HINTS
 You can access command-line arguments via the global *process* object. The *process* object has an *argv* property which is an array containing the complete command-line. i.e. *process.argv*.
 
@@ -25,12 +25,12 @@ Also be aware that all elements of *process.argv* are strings and you may need t
 
 learnyounode will be supplying arguments to your program when you run *learnyounode verify program.js* so you don't need to supply them yourself.
 
----
+___
 ###### » To print these instructions again, run:
     learnyounode print
 ###### » To execute your program in a test environment, run:
-    learnyounode run program.js
+    learnyounode run BabySteps.js
 ###### » To verify your program, run:
-    learnyounode verify program.js
+    learnyounode verify BabySteps.js
 ###### » To access the main menu, run:
     learnyounode

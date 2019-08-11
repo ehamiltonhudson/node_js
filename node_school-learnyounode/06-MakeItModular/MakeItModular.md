@@ -20,7 +20,7 @@ These four things are the contract that your module must follow.
 
 The benefit of having a contract is that your module can be used by anyone who expects this contract. So your module could be used by anyone else who does learnyounode, or the verifier, and just work.
 
----
+___
 ##### HINTS
 Create a new module by creating a new file that just contains your directory reading and filtering function. To define a single function export, you assign your function to the *module.exports* object, overwriting what is already there:
     ```javascript
@@ -53,12 +53,12 @@ Also keep in mind that it is idiomatic to check for errors and do early-returns 
     }
 ```
 
----
+___
 ###### » To print these instructions again, run:
     learnyounode print
 ###### » To execute your program in a test environment, run:
-    learnyounode run program.js
+    learnyounode run MakeItModular.js
 ###### » To verify your program, run:
-    learnyounode verify program.js
+    learnyounode verify MakeItModular.js
 ###### » To access the main menu, run:
     learnyounode

@@ -8,7 +8,7 @@ Keep in mind that the first arguments of your program are not the first values o
 
 The list of files should be printed to the console, one file per line. You __must__ use asynchronous I/O.
 
----
+___
 ##### HINTS
 The *fs.readdir()* method takes a pathname as its first argument and a callback as its second. The callback signature is:
     ```javascript
@@ -18,12 +18,12 @@ where *list* is an array of filename strings.
 
 You may also find node's *path* module helpful, particularly the *extname method*.
 
----
+___
 ###### » To print these instructions again, run:
     learnyounode print
 ###### » To execute your program in a test environment, run:
-    learnyounode run program.js
+    learnyounode run FilteredLS.js
 ###### » To verify your program, run:
-    learnyounode verify program.js
+    learnyounode verify FilteredLS.js
 ###### » To access the main menu, run:
     learnyounode
