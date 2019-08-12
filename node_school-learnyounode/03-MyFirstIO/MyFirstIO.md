@@ -1,10 +1,10 @@
 ## My First I/O
-#### (Execerise 3 of 13)
+##### (Execerise 3 of 13)
 Write a program that uses a single __synchronous__ filesystem operation to read a file and print the number of new lines (\n) it contains to the console (stdout), similar to running *cat file | wc -l*.
 The full path to the file to read will be provided as the first command-line argument (i.e., process.argv[2]). You do not need to make your own test file.
 
 ___
-##### HINTS
+#### HINTS
 To perform a filesystem operation you are going to need the *fs* module from the Node core library. To load this kind of module, or any other "global" module, use the following incantation:
     ```javascript
     var fs = require('fs')
