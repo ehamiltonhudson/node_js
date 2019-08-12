@@ -1,5 +1,5 @@
-## Hello World
-##### (Execerise 1 of 13)
+### Hello World
+###### (Execerise 1 of 13)
 This problem is the same as the previous but introduces the concept of __modules__. You will need to create two files to solve this.
 
 Create a program that prints a list of files in a given directory, filtered by the extension of the files. The first argument is the directory name and the second argument is the extension filter. Print the list of files (one file per line) to the console. You __must__ use asynchronous I/O.
@@ -21,7 +21,7 @@ These four things are the contract that your module must follow.
 The benefit of having a contract is that your module can be used by anyone who expects this contract. So your module could be used by anyone else who does learnyounode, or the verifier, and just work.
 
 ___
-#### HINTS
+##### HINTS
 Create a new module by creating a new file that just contains your directory reading and filtering function. To define a single function export, you assign your function to the *module.exports* object, overwriting what is already there:
     ```javascript
     module.exports = function (args) { /* ... */ }

@@ -1,9 +1,9 @@
-## Baby Steps
-##### (Execerise 2 of 13)
+### Baby Steps
+###### (Execerise 2 of 13)
 Write a program that accepts one or more numbers as command-line arguments and prints the sum of those numbers to the console (stdout).
 
 ___
-#### HINTS
+##### HINTS
 You can access command-line arguments via the global *process* object. The *process* object has an *argv* property which is an array containing the complete command-line. i.e. *process.argv*.
 
 To get started, write a program that simply contains:

@@ -1,9 +1,9 @@
-## Hello World
-##### (Execerise 1 of 13)
+### Hello World
+###### (Execerise 1 of 13)
 Write a program that prints the text "HELLO WORLD" to the console (stdout).
 
 ___
-#### HINTS
+##### HINTS
 To make a Node.js program, create a new file with a *.js* extension and
 start writing JavaScript! Execute your program by running it with the *node command. e.g.:*
     `$ node program.js`
